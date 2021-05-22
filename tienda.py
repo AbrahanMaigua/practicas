@@ -82,7 +82,7 @@ class ordena:
 	def sacar(self,nun=int):
 		if nun == 1:
 			try:			
-				self.Pila.pop(0) # primero que entra sale
+				self.Pila.pop(-1) # primero que entra es el último que sale 
 				return True
 
 			except IndexError:
