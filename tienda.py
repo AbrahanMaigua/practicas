@@ -109,7 +109,7 @@ class ordena:
 			for cliente in add:
 				self.Cola.insert(-1, cliente)
 
-persona = ["kaiju no 8","abrahan","mark","apele"]
+
 ic = 0
 while True:
 	print("bienvenido a SIGO.\n".capitalize())
