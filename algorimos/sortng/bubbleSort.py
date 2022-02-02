@@ -1,6 +1,6 @@
 def bubleSort(Array):
     """
-    notyacion  O(n²).
+    notacion  O(n²).
     """
     for i in range(len(Array) ): # o(1)
         for j in range(0, len(Array) - i - 1): # o(1)
